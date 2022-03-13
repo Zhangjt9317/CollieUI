@@ -4,7 +4,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview --port 5050"
+    "preview": "vite preview --port 5050",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "pinia": "^2.0.11",
@@ -12,7 +14,14 @@
     "vue-router": "^4.0.12"
   },
   "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@storybook/addon-actions": "^6.4.19",
+    "@storybook/addon-essentials": "^6.4.19",
+    "@storybook/addon-links": "^6.4.19",
+    "@storybook/vue3": "^6.4.19",
     "@vitejs/plugin-vue": "^2.2.2",
-    "vite": "^2.8.4"
+    "babel-loader": "^8.2.3",
+    "vite": "^2.8.4",
+    "vue-loader": "^16.8.3"
   }
 }
