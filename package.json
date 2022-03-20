@@ -9,7 +9,10 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "element-plus": "^2.1.4",
+    "jest": "^27.5.1",
     "pinia": "^2.0.11",
+    "remixicon": "^2.5.0",
     "sass": "^1.49.9",
     "vue": "^3.2.31",
     "vue-router": "^4.0.12"
@@ -22,6 +25,9 @@
     "@storybook/vue3": "^6.4.19",
     "@vitejs/plugin-vue": "^2.2.2",
     "babel-loader": "^8.2.3",
+    "node-sass": "^7.0.1",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
     "vite": "^2.8.4",
     "vue-loader": "^16.8.3"
   }
