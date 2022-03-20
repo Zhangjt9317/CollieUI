@@ -14,7 +14,7 @@
 
         <!-- 手动关闭消息 -->
         <div class="option" v-if="!config.close">
-          <i class="ri-close-fill" $click="onClose"></i>
+          <i class="ri-close-fill" @click="onClose"></i>
         </div>
       </div>
     </div>

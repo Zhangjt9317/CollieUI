@@ -4,7 +4,7 @@
   </main>
 </template>
 <script setup>
-import { ref, computed, onMounted, getCurrentInstance } from "vue";
+import { onMounted, getCurrentInstance } from "vue";
 const { proxy } = getCurrentInstance();
 
 onMounted(() => {
